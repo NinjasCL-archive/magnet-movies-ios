@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4351D7DCCD1007A4C29 /* main.m */; };
-		F4D1F4391D7DCCD1007A4C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* AppDelegate.m */; };
-		F4D1F43C1D7DCCD1007A4C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F43B1D7DCCD1007A4C29 /* ViewController.m */; };
+		F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */; };
 		F4D1F43F1D7DCCD1007A4C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */; };
 		F4D1F4411D7DCCD1007A4C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */; };
 		F4D1F4441D7DCCD1007A4C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */; };
@@ -18,10 +17,8 @@
 /* Begin PBXFileReference section */
 		F4D1F4311D7DCCD1007A4C29 /* Magnet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D1F4351D7DCCD1007A4C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4D1F4371D7DCCD1007A4C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F4D1F4381D7DCCD1007A4C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4D1F43A1D7DCCD1007A4C29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4D1F43B1D7DCCD1007A4C29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCLAppDelegate.h; sourceTree = "<group>"; };
+		F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNCLAppDelegate.m; sourceTree = "<group>"; };
 		F4D1F43E1D7DCCD1007A4C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D1F4431D7DCCD1007A4C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +55,8 @@
 		F4D1F4331D7DCCD1007A4C29 /* Magnet Movies */ = {
 			isa = PBXGroup;
 			children = (
-				F4D1F4371D7DCCD1007A4C29 /* AppDelegate.h */,
-				F4D1F4381D7DCCD1007A4C29 /* AppDelegate.m */,
-				F4D1F43A1D7DCCD1007A4C29 /* ViewController.h */,
-				F4D1F43B1D7DCCD1007A4C29 /* ViewController.m */,
+				F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */,
+				F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */,
 				F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */,
 				F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */,
 				F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */,
@@ -105,6 +100,7 @@
 		F4D1F4291D7DCCD1007A4C29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MNCL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Magnet SPA";
 				TargetAttributes = {
@@ -149,8 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D1F43C1D7DCCD1007A4C29 /* ViewController.m in Sources */,
-				F4D1F4391D7DCCD1007A4C29 /* AppDelegate.m in Sources */,
+				F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */,
 				F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MNCLAppDelegate.h
 //  Magnet Movies
 //
 //  Created by Magnet SPA on 05-09-16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MNCLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

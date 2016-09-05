@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  MNCLAppDelegate.m
 //  Magnet Movies
 //
 //  Created by Magnet SPA on 05-09-16.
 //  Copyright © 2016 Magnet SPA. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "MNCLAppDelegate.h"
 
-@interface AppDelegate ()
+@interface MNCLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation MNCLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
