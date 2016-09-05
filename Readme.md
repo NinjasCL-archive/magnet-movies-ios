@@ -2,7 +2,7 @@
 
 ## Install Coocapods
 
-`sudo gem install cocoapods --version 1.0.1'
+`sudo gem install cocoapods --version 1.0.1`
 
 See more at: https://cocoapods.org/
 
@@ -17,3 +17,7 @@ At the root folder of the project, run:
 Open the workspace created by cocoapods:
 
 `open Magnet\ Movies.xcworkspace/`
+
+## Reference Video
+
+Check `test.mov` as a video reference
