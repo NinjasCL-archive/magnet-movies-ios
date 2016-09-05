@@ -1,0 +1,94 @@
+# From https://github.com/Danimoth/gitattributes
+#common settings that generally should always be used with your language specific settings
+
+# Auto detect text files and perform LF normalization
+# http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+# Documents
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+*.md text
+*.markdown text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
+*.sql text
+*.json text
+*.txt text
+*.xml text
+
+# Website
+*.js text
+*.css text
+*.html text
+*.htm text
+*.sass text
+*.coffee text
+
+# Xcode
+# compare .pbxproj files as binary and always merge as union
+*.pbxproj binary -merge=union
+
+## Objective-C and Swift
+*.m text
+*.h text
+*.c text
+*.cpp text
+*.mm text
+*.swift text
+
+## Related Files
+*.lock text
+Podfile text
+*.plist text
+*.storyboard binary
+
+# Database
+*.db binary
+*.sqlite binary
+*.realm binary
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+# SVG treated as an asset (binary) by default. If you want to treat it as text,
+# comment-out the following line and uncomment the line after.
+*.svg binary
+#*.svg text
+*.eps binary
+
+# Multimedia
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.aiff binary
+*.ogg binary
+*.ogv binary
+
+# Compressed Files
+*.zip binary
+*.rar binary
+*.tar binary
+*.tar.gz binary
