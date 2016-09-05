@@ -10,4 +10,6 @@
 
 @interface MNCLMovie : NSObject
 
++ (void)getTopRatedMovies;
+
 @end
