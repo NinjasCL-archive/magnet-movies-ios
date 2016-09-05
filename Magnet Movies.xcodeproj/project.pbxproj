@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7E8304D9ECF44257F80BAA /* libPods-Magnet Movies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */; };
 		F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4351D7DCCD1007A4C29 /* main.m */; };
 		F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */; };
 		F4D1F43F1D7DCCD1007A4C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */; };
 		F4D1F4411D7DCCD1007A4C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */; };
 		F4D1F4441D7DCCD1007A4C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */; };
+		F4D1F44D1D7DE2AC007A4C29 /* MNCLMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F647E23023B7E03ABB0C5F /* Pods-Magnet Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnet Movies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Magnet Movies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854B40D5B7845B80CFB738E6 /* Pods-Magnet Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnet Movies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies.release.xcconfig"; sourceTree = "<group>"; };
 		F4D1F4311D7DCCD1007A4C29 /* Magnet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D1F4351D7DCCD1007A4C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCLAppDelegate.h; sourceTree = "<group>"; };
@@ -23,6 +28,8 @@
 		F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D1F4431D7DCCD1007A4C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D1F4451D7DCCD1007A4C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D1F44B1D7DE2AC007A4C29 /* MNCLMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNCLMovie.h; path = Models/MNCLMovie.h; sourceTree = "<group>"; };
+		F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNCLMovie.m; path = Models/MNCLMovie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7E8304D9ECF44257F80BAA /* libPods-Magnet Movies.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00EC521D28C6431CD17B56A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00F647E23023B7E03ABB0C5F /* Pods-Magnet Movies.debug.xcconfig */,
+				854B40D5B7845B80CFB738E6 /* Pods-Magnet Movies.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFB3F51911B16F8E8D1E57B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4D1F4281D7DCCD1007A4C29 = {
 			isa = PBXGroup;
 			children = (
 				F4D1F4331D7DCCD1007A4C29 /* Magnet Movies */,
 				F4D1F4321D7DCCD1007A4C29 /* Products */,
+				00EC521D28C6431CD17B56A3 /* Pods */,
+				BFB3F51911B16F8E8D1E57B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +84,8 @@
 			children = (
 				F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */,
 				F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */,
+				F4D1F44B1D7DE2AC007A4C29 /* MNCLMovie.h */,
+				F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */,
 				F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */,
 				F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */,
 				F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */,
@@ -81,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D1F4481D7DCCD1007A4C29 /* Build configuration list for PBXNativeTarget "Magnet Movies" */;
 			buildPhases = (
+				FE1BD09A894920C72A6444A4 /* [CP] Check Pods Manifest.lock */,
 				F4D1F42D1D7DCCD1007A4C29 /* Sources */,
 				F4D1F42E1D7DCCD1007A4C29 /* Frameworks */,
 				F4D1F42F1D7DCCD1007A4C29 /* Resources */,
+				43C73063B862547C573C002F /* [CP] Embed Pods Frameworks */,
+				43BEB95435BFA4833CEF1C5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +172,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43BEB95435BFA4833CEF1C5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C73063B862547C573C002F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1BD09A894920C72A6444A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4D1F42D1D7DCCD1007A4C29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D1F44D1D7DE2AC007A4C29 /* MNCLMovie.m in Sources */,
 				F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */,
 				F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */,
 			);
@@ -256,6 +337,7 @@
 		};
 		F4D1F4491D7DCCD1007A4C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F647E23023B7E03ABB0C5F /* Pods-Magnet Movies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Magnet Movies/Info.plist";
@@ -267,6 +349,7 @@
 		};
 		F4D1F44A1D7DCCD1007A4C29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B40D5B7845B80CFB738E6 /* Pods-Magnet Movies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Magnet Movies/Info.plist";
@@ -295,6 +378,7 @@
 				F4D1F44A1D7DCCD1007A4C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
