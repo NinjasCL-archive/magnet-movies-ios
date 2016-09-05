@@ -26,7 +26,7 @@ Check `test.mov` as a video reference
 
 This is an example of a movie object:
 
-`
+```json
 {
     poster_path: "/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg",
     adult: false,
@@ -46,7 +46,7 @@ This is an example of a movie object:
     video: false,
     vote_average: 8.32
 }
-`
+```
 
 If you want to get the poster's image, take the `poster_path` and prepend this path:
 
