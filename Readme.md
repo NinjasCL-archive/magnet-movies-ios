@@ -1,4 +1,5 @@
 # Magnet Test
+This is a simple test for interviewing our candidates
 
 ## Prerequisites
 
