@@ -60,3 +60,22 @@ If you want to get the poster's image, take the `poster_path` and prepend this p
 So the full image's path is:
 
 `http://image.tmdb.org/t/p/w185/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg`
+
+## CLSource's Solution
+- Objective-C with heavy use of Generics and Promises (Using Bolts) For making code compatible with Swift.
+- Implemented 3 Schemes (Debug, Testing and Production) for easing the enviroments and better organizing the archives.
+- Implemented Automatic Build Number Increment for avoiding conflicts in Test Flight.
+- Using Strategy Design Pattern for Table View Cell Loading
+- Separated Models with an API Layer.
+- Using tags in views for better organization of Storyboards.
+- Improved .gitignore
+- Added .editorconfig, .gitattributes, .gitkeep
+
+### Dependencies
+  - AFNetworking (~> 3.1.0)
+  - Bolts
+  - CocoaLumberjack
+  - Mantle
+  - Realm
+  - SDWebImage
+  - YLMoment
