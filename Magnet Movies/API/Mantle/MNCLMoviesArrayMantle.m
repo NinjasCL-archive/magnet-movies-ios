@@ -11,7 +11,7 @@
 
 @implementation MNCLMoviesArrayMantle
 
-@dynamic items;
+@synthesize items = _items;
 
 #pragma mark - MTLJSONSerializing
 

@@ -22,10 +22,10 @@
              @"posterImagePath" : @"poster_path",
              @"title" : @"title",
              @"originalTitle" : @"original_title",
-             @"originalLanguage" : @"originalLanguage",
+             @"originalLanguage" : @"original_language",
              @"overview" : @"overview",
              @"voteCount" : @"vote_count",
-             @"voteAverange" : @"vote_averange",
+             @"voteAverage" : @"vote_average",
              @"popularity" : @"popularity",
              @"releasedAt" : @"release_date"
     };

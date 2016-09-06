@@ -9,7 +9,7 @@
 #import <Realm/Realm.h>
 #import <Bolts/Bolts.h>
 
-#import "MNCLMoviesArrayMantle.h"
+#import "MNCLMovieItemMantle.h"
 
 /*!
  *  @brief Holds the Movies inside the Data Base
@@ -18,11 +18,32 @@
 
 @property (nonatomic, nullable) NSString * uid;
 
+@property (nonatomic, nullable) NSString * title;
+
 @property (nonatomic, nullable) NSString * json;
 
-- (nullable MNCLMoviesArrayMantle *) mantle;
+/*!
+ *  @brief An Object that holds the information for the movie
+ *
+ *  @return MNCLMovieItemMantle instance
+ */
+- (nullable MNCLMovieItemMantle *) mantle;
 
-+ (nonnull BFTask<MNCLMoviesArrayMantle*>*) fetchTopRatedMovies;
+#pragma mark - Class Methods
+
+/*!
+ *  @brief Calls the server and get the top rated movie
+ *
+ *  @return NSArray of MNCLMovieModel Objects
+ */
++ (nonnull BFTask<RLMResults *> *) fetchTopRatedMovies;
+
+/*!
+ *  @brief Items sorted by title
+ *
+ *  @return MNCLMocieModel Array
+ */
++ (nonnull RLMResults<MNCLMovieModel *> *) items;
 
 @end
 

@@ -7,17 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import <Bolts/Bolts.h>
 
-@interface MNCLMovieRequester : NSObject
+#import "NJSRequesterProtocol.h"
+#import "MNCLMoviesArrayMantle.h"
+
+@interface MNCLMovieRequester : NSObject <NJSRequesterProtocol>
 
 /*!
  *  @brief Calls the Top Rated Movies Endpoints
- *  and returns a json on success
+ *  and returns a mantle object on success
  *
- *  @return NSDictionary with the json on success
+ *  @return MNCLMoviesArrayMantle on success
  */
-+ (nonnull BFTask<__kindof NSDictionary *> *) getTopRatedMovies;
++ (nonnull BFTask<__kindof MNCLMoviesArrayMantle *> *) getTopRatedMovies;
 
 @end

@@ -59,10 +59,10 @@
 
 @property (nonatomic, nullable) NSNumber * voteCount;
 
-@property (nonatomic, nullable) NSNumber * voteAverange;
+@property (nonatomic, nullable) NSNumber * voteAverage;
 
 @property (nonatomic, nullable) NSNumber * popularity;
 
-@property (nonatomic, nullable) NSDate * releasedAt;
+@property (nonatomic, nullable) NSString * releasedAt;
 
 @end

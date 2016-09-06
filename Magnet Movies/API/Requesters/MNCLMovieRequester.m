@@ -15,6 +15,7 @@
 #import "NJSAPIToken+MNCLAPIToken.h"
 
 #import <AFNetworking/AFNetworking.h>
+#import <Mantle/Mantle.h>
 
 @implementation MNCLMovieRequester
 
@@ -51,6 +52,37 @@
         [promise setError:error];
         
     }];
+    
+    return [promise.task
+            continueWithSuccessBlock:^id _Nullable(BFTask * _Nonnull t) {
+                return [[self class] convertJSONToMantle:t.result];
+    }];
+}
+
++ (nonnull BFTask *) convertJSONToMantle: (nonnull NSDictionary *) json {
+    
+    BFTaskCompletionSource * promise = [BFTaskCompletionSource
+                                        taskCompletionSource];
+    
+    NSError * error;
+    
+    DDLogInfo(@"Prepare to Parsing Movies Array JSON");
+    
+    MNCLMoviesArrayMantle * data = [MTLJSONAdapter
+                                  modelOfClass:MNCLMoviesArrayMantle.class
+                                  fromJSONDictionary:json
+                                  error:&error];
+    
+    if (error) {
+        
+        [promise setError:error];
+        
+    } else {
+        
+        DDLogInfo(@"Json Parsing Complete");
+        
+        [promise setResult:data];
+    }
     
     return promise.task;
 }
