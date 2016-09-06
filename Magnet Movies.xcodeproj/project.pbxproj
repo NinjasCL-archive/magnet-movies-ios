@@ -16,6 +16,11 @@
 		9A24EA911D7E4C0D00ED4822 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24EA901D7E4C0D00ED4822 /* Launch Screen.storyboard */; };
 		9A24EA931D7E4C1B00ED4822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24EA921D7E4C1B00ED4822 /* Main.storyboard */; };
 		9A24EA961D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */; };
+		9A24EA9A1D7E593500ED4822 /* NJSAPIToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA991D7E593500ED4822 /* NJSAPIToken.m */; };
+		9A24EA9E1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA9D1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m */; };
+		9A24EAA21D7E63D800ED4822 /* MNCLMovieRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA11D7E63D800ED4822 /* MNCLMovieRequester.m */; };
+		9A24EAA61D7E82D600ED4822 /* MNCLMoviesArrayMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA51D7E82D600ED4822 /* MNCLMoviesArrayMantle.m */; };
+		9A24EAAA1D7E82F000ED4822 /* MNCLMovieItemMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA91D7E82F000ED4822 /* MNCLMovieItemMantle.m */; };
 		AC7E8304D9ECF44257F80BAA /* libPods-Magnet Movies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */; };
 		F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4351D7DCCD1007A4C29 /* main.m */; };
 		F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */; };
@@ -43,6 +48,17 @@
 		9A24EA921D7E4C1B00ED4822 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9A24EA941D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NJSEndpoint+MNCLMovies.h"; sourceTree = "<group>"; };
 		9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NJSEndpoint+MNCLMovies.m"; sourceTree = "<group>"; };
+		9A24EA981D7E593500ED4822 /* NJSAPIToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJSAPIToken.h; path = Endpoint/NJSAPIToken.h; sourceTree = "<group>"; };
+		9A24EA991D7E593500ED4822 /* NJSAPIToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJSAPIToken.m; path = Endpoint/NJSAPIToken.m; sourceTree = "<group>"; };
+		9A24EA9C1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NJSAPIToken+MNCLAPIToken.h"; sourceTree = "<group>"; };
+		9A24EA9D1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NJSAPIToken+MNCLAPIToken.m"; sourceTree = "<group>"; };
+		9A24EAA01D7E63D800ED4822 /* MNCLMovieRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieRequester.h; sourceTree = "<group>"; };
+		9A24EAA11D7E63D800ED4822 /* MNCLMovieRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieRequester.m; sourceTree = "<group>"; };
+		9A24EAA41D7E82D600ED4822 /* MNCLMoviesArrayMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMoviesArrayMantle.h; sourceTree = "<group>"; };
+		9A24EAA51D7E82D600ED4822 /* MNCLMoviesArrayMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMoviesArrayMantle.m; sourceTree = "<group>"; };
+		9A24EAA81D7E82F000ED4822 /* MNCLMovieItemMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieItemMantle.h; sourceTree = "<group>"; };
+		9A24EAA91D7E82F000ED4822 /* MNCLMovieItemMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieItemMantle.m; sourceTree = "<group>"; };
+		9A24EAAD1D7E83D100ED4822 /* NJSArrayMantleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSArrayMantleProtocol.h; sourceTree = "<group>"; };
 		F4D1F4311D7DCCD1007A4C29 /* Magnet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D1F4351D7DCCD1007A4C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCLAppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +111,7 @@
 		9A24EA5B1D7E48D800ED4822 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EAAC1D7E83A400ED4822 /* Headers */,
 				9A24EA5C1D7E48D800ED4822 /* Endpoint */,
 				9A24EA5F1D7E48D800ED4822 /* Manager */,
 				9A24EA621D7E48D800ED4822 /* Response Serializer */,
@@ -105,6 +122,7 @@
 		9A24EA5C1D7E48D800ED4822 /* Endpoint */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EA9B1D7E593900ED4822 /* API Token */,
 				9A24EA5D1D7E48D800ED4822 /* NJSEndpoint.h */,
 				9A24EA5E1D7E48D800ED4822 /* NJSEndpoint.m */,
 			);
@@ -132,8 +150,8 @@
 		9A24EA651D7E48D800ED4822 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
-				9A24EA941D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.h */,
-				9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */,
+				9A24EA9F1D7E5A5400ED4822 /* API Token */,
+				9A24EA971D7E58E800ED4822 /* Movies */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -141,6 +159,7 @@
 		9A24EA661D7E48D800ED4822 /* Mantle */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EAA71D7E82D900ED4822 /* Movies */,
 			);
 			path = Mantle;
 			sourceTree = "<group>";
@@ -148,6 +167,7 @@
 		9A24EA671D7E48D800ED4822 /* Requesters */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EAA31D7E63DE00ED4822 /* Movie */,
 			);
 			path = Requesters;
 			sourceTree = "<group>";
@@ -233,6 +253,70 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9A24EA971D7E58E800ED4822 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA941D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.h */,
+				9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		9A24EA9B1D7E593900ED4822 /* API Token */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA981D7E593500ED4822 /* NJSAPIToken.h */,
+				9A24EA991D7E593500ED4822 /* NJSAPIToken.m */,
+			);
+			name = "API Token";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A24EA9F1D7E5A5400ED4822 /* API Token */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA9C1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.h */,
+				9A24EA9D1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m */,
+			);
+			name = "API Token";
+			sourceTree = "<group>";
+		};
+		9A24EAA31D7E63DE00ED4822 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAA01D7E63D800ED4822 /* MNCLMovieRequester.h */,
+				9A24EAA11D7E63D800ED4822 /* MNCLMovieRequester.m */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		9A24EAA71D7E82D900ED4822 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAAB1D7E82F400ED4822 /* Item */,
+				9A24EAA41D7E82D600ED4822 /* MNCLMoviesArrayMantle.h */,
+				9A24EAA51D7E82D600ED4822 /* MNCLMoviesArrayMantle.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		9A24EAAB1D7E82F400ED4822 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAA81D7E82F000ED4822 /* MNCLMovieItemMantle.h */,
+				9A24EAA91D7E82F000ED4822 /* MNCLMovieItemMantle.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		9A24EAAC1D7E83A400ED4822 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAAD1D7E83D100ED4822 /* NJSArrayMantleProtocol.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		BFB3F51911B16F8E8D1E57B2 /* Frameworks */ = {
@@ -441,13 +525,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */,
+				9A24EAA21D7E63D800ED4822 /* MNCLMovieRequester.m in Sources */,
+				9A24EAAA1D7E82F000ED4822 /* MNCLMovieItemMantle.m in Sources */,
 				9A24EA821D7E48D800ED4822 /* NJSEndpoint.m in Sources */,
 				9A24EA8A1D7E48D800ED4822 /* NJSVersionManager.m in Sources */,
+				9A24EA9E1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m in Sources */,
 				9A24EA841D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m in Sources */,
 				9A24EA881D7E48D800ED4822 /* NJSLogFormatter.m in Sources */,
 				9A24EA831D7E48D800ED4822 /* NJSAPIManager.m in Sources */,
 				9A24EA961D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m in Sources */,
 				F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */,
+				9A24EA9A1D7E593500ED4822 /* NJSAPIToken.m in Sources */,
+				9A24EAA61D7E82D600ED4822 /* MNCLMoviesArrayMantle.m in Sources */,
 				9A24EA891D7E48D800ED4822 /* NJSCocoaLumberjack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

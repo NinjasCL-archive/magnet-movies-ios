@@ -25,4 +25,18 @@
     return [NSString
             stringWithFormat:@"%@/top_rated", [[self class] movies]];
 }
+
++ (nonnull NSURL *) movieImageURLForPath:(NSString *) path {
+    
+    NSString * firstChar = [path substringToIndex:1];
+    
+    // We need to ensure that we always have a /
+    // as the first char.
+    if (![firstChar isEqualToString:@"/"]) {
+        path = [NSString stringWithFormat:@"/%@", path];
+    }
+
+    return [NSURL URLWithString:[NSString
+            stringWithFormat:@"http://image.tmdb.org/t/p/w185%@", path]];
+}
 @end

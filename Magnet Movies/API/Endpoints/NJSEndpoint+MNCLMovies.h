@@ -27,4 +27,11 @@
  */
 + (nonnull NSString *) topRatedMovies;
 
+/*!
+ *  @brief Returns the URL for fetching the Images
+ *  @param NSString path of the image
+ *  @return NSURL with the full url for the path given
+ */
++ (nonnull NSURL *) movieImageURLForPath: (nonnull NSString *) path;
+
 @end
