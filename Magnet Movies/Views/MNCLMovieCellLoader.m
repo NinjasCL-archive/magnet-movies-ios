@@ -34,6 +34,7 @@
                                                            forIndexPath:indexPath];
     
     [cell initWithMovie:movie];
+    [cell setNeedsDisplay];
     
     return cell;
 }

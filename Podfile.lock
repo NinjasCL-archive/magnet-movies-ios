@@ -37,6 +37,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - YLMoment (0.6.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - Mantle
   - Realm
   - SDWebImage
+  - YLMoment
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -53,5 +55,6 @@ SPEC CHECKSUMS:
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  YLMoment: a342e85269150756105901c4b701070154f82c16
 
 COCOAPODS: 0.39.0

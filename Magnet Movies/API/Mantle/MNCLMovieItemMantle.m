@@ -9,6 +9,8 @@
 #import "MNCLMovieItemMantle.h"
 #import "NJSEndpoint+MNCLMovies.h"
 
+#import <YLMoment/YLMoment.h>
+
 @implementation MNCLMovieItemMantle
 
 #pragma mark - MTLJSONSerializing
@@ -37,6 +39,19 @@
 
 - (nullable NSURL *) posterImageURL {
     return [NJSEndpoint movieImageURLForPath:self.posterImagePath];
+}
+
+- (NSString *) releasedAtFormatted {
+    
+    YLMoment * moment = [YLMoment
+                         momentWithDateAsString:self.releasedAt
+                         format:@"yyyy-MM-dd"];
+    
+    [moment setLocale:[NSLocale localeWithLocaleIdentifier:NSLocalizedString(@"es_ES", @"NSLocale Identifier for Date Generation")]];
+    
+    return [moment
+            format:NSLocalizedString(@"dd 'de' MMMM 'de' yyyy", @"Date Format For Date Generation")];
+    
 }
 
 

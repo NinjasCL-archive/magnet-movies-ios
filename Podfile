@@ -9,7 +9,7 @@ target 'Magnet Movies' do
 	# Networking
 	pod 'AFNetworking', '~> 3.1.0'
 	pod 'Mantle'
-    pod 'SDWebImage', :inhibit_warnings => true
+	pod 'SDWebImage', :inhibit_warnings => true
 
 	# Database
 	pod 'Realm'
@@ -17,6 +17,7 @@ target 'Magnet Movies' do
 	# Helpers
 	pod 'Bolts'
 	pod 'CocoaLumberjack'
+	pod 'YLMoment'
 
 end
 

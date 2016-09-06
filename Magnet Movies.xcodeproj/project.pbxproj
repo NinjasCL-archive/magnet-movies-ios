@@ -21,6 +21,12 @@
 		9A24EAA21D7E63D800ED4822 /* MNCLMovieRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA11D7E63D800ED4822 /* MNCLMovieRequester.m */; };
 		9A24EAA61D7E82D600ED4822 /* MNCLMoviesArrayMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA51D7E82D600ED4822 /* MNCLMoviesArrayMantle.m */; };
 		9A24EAAA1D7E82F000ED4822 /* MNCLMovieItemMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAA91D7E82F000ED4822 /* MNCLMovieItemMantle.m */; };
+		9A24EAB01D7E927D00ED4822 /* MNCLMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAAF1D7E927D00ED4822 /* MNCLMovieModel.m */; };
+		9A24EAB51D7E9CD000ED4822 /* MNCLMoviesTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EAB41D7E9CD000ED4822 /* MNCLMoviesTableController.m */; };
+		9A3A40E21D7F1D5D0034CD66 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A40E11D7F1D5D0034CD66 /* NSDictionary+JSON.m */; };
+		9A3A40E61D7F24C70034CD66 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A40E51D7F24C70034CD66 /* NSString+JSON.m */; };
+		9A3A40E91D7F36920034CD66 /* MNCLMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A40E81D7F36920034CD66 /* MNCLMovieCell.m */; };
+		9A3A40ED1D7F36B40034CD66 /* MNCLMovieCellLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A40EC1D7F36B40034CD66 /* MNCLMovieCellLoader.m */; };
 		AC7E8304D9ECF44257F80BAA /* libPods-Magnet Movies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */; };
 		F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4351D7DCCD1007A4C29 /* main.m */; };
 		F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */; };
@@ -59,6 +65,20 @@
 		9A24EAA81D7E82F000ED4822 /* MNCLMovieItemMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieItemMantle.h; sourceTree = "<group>"; };
 		9A24EAA91D7E82F000ED4822 /* MNCLMovieItemMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieItemMantle.m; sourceTree = "<group>"; };
 		9A24EAAD1D7E83D100ED4822 /* NJSArrayMantleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSArrayMantleProtocol.h; sourceTree = "<group>"; };
+		9A24EAAE1D7E927D00ED4822 /* MNCLMovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieModel.h; sourceTree = "<group>"; };
+		9A24EAAF1D7E927D00ED4822 /* MNCLMovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieModel.m; sourceTree = "<group>"; };
+		9A24EAB21D7E97D200ED4822 /* NJSRequesterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSRequesterProtocol.h; sourceTree = "<group>"; };
+		9A24EAB31D7E9CD000ED4822 /* MNCLMoviesTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMoviesTableController.h; sourceTree = "<group>"; };
+		9A24EAB41D7E9CD000ED4822 /* MNCLMoviesTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMoviesTableController.m; sourceTree = "<group>"; };
+		9A3A40E01D7F1D5D0034CD66 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		9A3A40E11D7F1D5D0034CD66 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		9A3A40E41D7F24C70034CD66 /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		9A3A40E51D7F24C70034CD66 /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		9A3A40E71D7F36920034CD66 /* MNCLMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieCell.h; sourceTree = "<group>"; };
+		9A3A40E81D7F36920034CD66 /* MNCLMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieCell.m; sourceTree = "<group>"; };
+		9A3A40EB1D7F36B40034CD66 /* MNCLMovieCellLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNCLMovieCellLoader.h; sourceTree = "<group>"; };
+		9A3A40EC1D7F36B40034CD66 /* MNCLMovieCellLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNCLMovieCellLoader.m; sourceTree = "<group>"; };
+		9A3A40EF1D7F39040034CD66 /* NJSTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSTableViewCellProtocol.h; sourceTree = "<group>"; };
 		F4D1F4311D7DCCD1007A4C29 /* Magnet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D1F4351D7DCCD1007A4C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCLAppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +195,8 @@
 		9A24EA681D7E48D800ED4822 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				9A3A40E31D7F24C70034CD66 /* NSString+JSON */,
+				9A3A40DF1D7F1D5D0034CD66 /* NSDictionary+JSON */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -182,6 +204,7 @@
 		9A24EA6A1D7E48D800ED4822 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EAB61D7E9CD300ED4822 /* Movies */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -235,6 +258,7 @@
 		9A24EA791D7E48D800ED4822 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A24EAB11D7E928800ED4822 /* Movies */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +275,8 @@
 		9A24EA7F1D7E48D800ED4822 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A3A40EF1D7F39040034CD66 /* NJSTableViewCellProtocol.h */,
+				9A3A40EA1D7F36960034CD66 /* Movie Cell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,8 +341,64 @@
 			isa = PBXGroup;
 			children = (
 				9A24EAAD1D7E83D100ED4822 /* NJSArrayMantleProtocol.h */,
+				9A24EAB21D7E97D200ED4822 /* NJSRequesterProtocol.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		9A24EAB11D7E928800ED4822 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAAE1D7E927D00ED4822 /* MNCLMovieModel.h */,
+				9A24EAAF1D7E927D00ED4822 /* MNCLMovieModel.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		9A24EAB61D7E9CD300ED4822 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EAB31D7E9CD000ED4822 /* MNCLMoviesTableController.h */,
+				9A24EAB41D7E9CD000ED4822 /* MNCLMoviesTableController.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		9A3A40DF1D7F1D5D0034CD66 /* NSDictionary+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A40E01D7F1D5D0034CD66 /* NSDictionary+JSON.h */,
+				9A3A40E11D7F1D5D0034CD66 /* NSDictionary+JSON.m */,
+			);
+			path = "NSDictionary+JSON";
+			sourceTree = "<group>";
+		};
+		9A3A40E31D7F24C70034CD66 /* NSString+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A40E41D7F24C70034CD66 /* NSString+JSON.h */,
+				9A3A40E51D7F24C70034CD66 /* NSString+JSON.m */,
+			);
+			path = "NSString+JSON";
+			sourceTree = "<group>";
+		};
+		9A3A40EA1D7F36960034CD66 /* Movie Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A40EE1D7F36B70034CD66 /* Cell Loader */,
+				9A3A40E71D7F36920034CD66 /* MNCLMovieCell.h */,
+				9A3A40E81D7F36920034CD66 /* MNCLMovieCell.m */,
+			);
+			name = "Movie Cell";
+			sourceTree = "<group>";
+		};
+		9A3A40EE1D7F36B70034CD66 /* Cell Loader */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A40EB1D7F36B40034CD66 /* MNCLMovieCellLoader.h */,
+				9A3A40EC1D7F36B40034CD66 /* MNCLMovieCellLoader.m */,
+			);
+			name = "Cell Loader";
 			sourceTree = "<group>";
 		};
 		BFB3F51911B16F8E8D1E57B2 /* Frameworks */ = {
@@ -524,6 +606,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A24EAB01D7E927D00ED4822 /* MNCLMovieModel.m in Sources */,
+				9A3A40ED1D7F36B40034CD66 /* MNCLMovieCellLoader.m in Sources */,
 				F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */,
 				9A24EAA21D7E63D800ED4822 /* MNCLMovieRequester.m in Sources */,
 				9A24EAAA1D7E82F000ED4822 /* MNCLMovieItemMantle.m in Sources */,
@@ -531,13 +615,17 @@
 				9A24EA8A1D7E48D800ED4822 /* NJSVersionManager.m in Sources */,
 				9A24EA9E1D7E5A5100ED4822 /* NJSAPIToken+MNCLAPIToken.m in Sources */,
 				9A24EA841D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m in Sources */,
+				9A3A40E21D7F1D5D0034CD66 /* NSDictionary+JSON.m in Sources */,
 				9A24EA881D7E48D800ED4822 /* NJSLogFormatter.m in Sources */,
 				9A24EA831D7E48D800ED4822 /* NJSAPIManager.m in Sources */,
 				9A24EA961D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m in Sources */,
 				F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */,
+				9A3A40E61D7F24C70034CD66 /* NSString+JSON.m in Sources */,
 				9A24EA9A1D7E593500ED4822 /* NJSAPIToken.m in Sources */,
 				9A24EAA61D7E82D600ED4822 /* MNCLMoviesArrayMantle.m in Sources */,
 				9A24EA891D7E48D800ED4822 /* NJSCocoaLumberjack.m in Sources */,
+				9A24EAB51D7E9CD000ED4822 /* MNCLMoviesTableController.m in Sources */,
+				9A3A40E91D7F36920034CD66 /* MNCLMovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

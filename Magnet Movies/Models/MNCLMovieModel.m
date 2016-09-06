@@ -34,7 +34,11 @@
 }
 
 + (NSDictionary *) defaultPropertyValues {
-    return @{@"json" : @""};
+    return @{
+             @"json" : @"",
+             @"title" : @"",
+             @"popularity" : @0
+             };
 }
 
 #pragma mark - Class Methods
@@ -104,7 +108,9 @@
     MNCLMovieModel * movie = [MNCLMovieModel new];
     
     movie.uid = (mantle.uid.stringValue ? mantle.uid.stringValue : @"");
+    
     movie.title = mantle.title;
+    movie.popularity = mantle.popularity.doubleValue;
     
     NSError * error;
     
@@ -123,8 +129,8 @@
 
 + (RLMResults *) items {
     return [[MNCLMovieModel allObjects]
-            sortedResultsUsingProperty:@"title"
-            ascending:YES];
+            sortedResultsUsingProperty:@"popularity"
+            ascending:NO];
 }
 
 #pragma mark - Instance

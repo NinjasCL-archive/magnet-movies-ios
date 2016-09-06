@@ -20,6 +20,8 @@
 
 @property (nonatomic, nullable) NSString * title;
 
+@property (nonatomic) double popularity;
+
 @property (nonatomic, nullable) NSString * json;
 
 /*!

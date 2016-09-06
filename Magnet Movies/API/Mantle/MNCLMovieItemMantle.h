@@ -65,4 +65,6 @@
 
 @property (nonatomic, nullable) NSString * releasedAt;
 
+- (nonnull NSString *) releasedAtFormatted;
+
 @end
