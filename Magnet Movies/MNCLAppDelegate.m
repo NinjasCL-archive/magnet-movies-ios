@@ -7,7 +7,19 @@
 //
 
 #import "MNCLAppDelegate.h"
-#import "MNCLMovie.h"
+
+#import "NJSLogger.h"
+#import "NJSCocoaLumberjack.h"
+
+#import "NJSVersionManager.h"
+
+#import "NJSEndpoint.h"
+
+#ifdef DEBUG
+BOOL const kMNCLAppIsInProduction = NO;
+#else
+BOOL const kMNCLAppIsInProduction = YES;
+#endif
 
 @interface MNCLAppDelegate ()
 
@@ -15,33 +27,63 @@
 
 @implementation MNCLAppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+#pragma mark - App Delegate Methods
+- (BOOL) application: (UIApplication *) application
+    didFinishLaunchingWithOptions: (NSDictionary *) launchOptions {
+    
+    [NJSCocoaLumberjack setup];
+    
+    DDLogVerbose(@"%@ Is In Production? %d",
+                 [NJSVersionManager
+                         currentAppVersionAndBuildNumber],
+                    kMNCLAppIsInProduction);
+    
+    [self setupEndpoints];
     
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+- (void) applicationDidReceiveMemoryWarning: (UIApplication *) application {
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+#pragma mark - Setup Methods
+- (void) setupEndpoints {
+    
+    [NJSEndpoint setEndpointBaseDevelopmentURL:@"api.themoviedb.org"
+                                    testingURL:nil
+                                 productionURL:nil
+                                    apiVersion:@"3"];
+    
+    
+    [NJSEndpoint setEndpointEnviroment:kNJSEndpointEnviromentDevelopment];
+    
+    [NJSEndpoint setAPIVersionIsExplicitInURL:YES];
+    
+    [NJSEndpoint setUseHTTPS:NO];
+    
+    [NJSEndpoint setBaseURLShouldHaveTrailingSlash:YES];
+    
+    [NJSEndpoint setPrefixEndpointsWithBaseURL:NO];
+    
+    if (kMNCLAppIsInProduction) {
+        
+        [NJSEndpoint setEndpointEnviroment:kNJSEndpointEnviromentProduction];
+        
+        [NJSEndpoint setAPIVersionIsExplicitInURL:YES];
+        
+        [NJSEndpoint setUseHTTPS:NO];
+        
+        [NJSEndpoint setBaseURLShouldHaveTrailingSlash:YES];
+        
+        [NJSEndpoint setPrefixEndpointsWithBaseURL:NO];
+        
+    }
+    
+    DDLogVerbose(@"Using Endpoint \n%@ \nEnviroment id %d \n",
+                 [NJSEndpoint baseURL],
+                 (int)[NJSEndpoint enviroment]);
+    
+    DDLogInfo(@"Endpoint Setup Complete");
 }
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
 @end

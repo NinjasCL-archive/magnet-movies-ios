@@ -7,29 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A24EA821D7E48D800ED4822 /* NJSEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA5E1D7E48D800ED4822 /* NJSEndpoint.m */; };
+		9A24EA831D7E48D800ED4822 /* NJSAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA611D7E48D800ED4822 /* NJSAPIManager.m */; };
+		9A24EA841D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA641D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m */; };
+		9A24EA881D7E48D800ED4822 /* NJSLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA721D7E48D800ED4822 /* NJSLogFormatter.m */; };
+		9A24EA891D7E48D800ED4822 /* NJSCocoaLumberjack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA741D7E48D800ED4822 /* NJSCocoaLumberjack.m */; };
+		9A24EA8A1D7E48D800ED4822 /* NJSVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA781D7E48D800ED4822 /* NJSVersionManager.m */; };
+		9A24EA911D7E4C0D00ED4822 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24EA901D7E4C0D00ED4822 /* Launch Screen.storyboard */; };
+		9A24EA931D7E4C1B00ED4822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A24EA921D7E4C1B00ED4822 /* Main.storyboard */; };
+		9A24EA961D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */; };
 		AC7E8304D9ECF44257F80BAA /* libPods-Magnet Movies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */; };
 		F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4351D7DCCD1007A4C29 /* main.m */; };
 		F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */; };
-		F4D1F43F1D7DCCD1007A4C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */; };
 		F4D1F4411D7DCCD1007A4C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */; };
-		F4D1F4441D7DCCD1007A4C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */; };
-		F4D1F44D1D7DE2AC007A4C29 /* MNCLMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00F647E23023B7E03ABB0C5F /* Pods-Magnet Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnet Movies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies.debug.xcconfig"; sourceTree = "<group>"; };
 		2BA3A641987AA0E92E021EAE /* libPods-Magnet Movies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Magnet Movies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854B40D5B7845B80CFB738E6 /* Pods-Magnet Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnet Movies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies.release.xcconfig"; sourceTree = "<group>"; };
+		9A24EA5D1D7E48D800ED4822 /* NJSEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSEndpoint.h; sourceTree = "<group>"; };
+		9A24EA5E1D7E48D800ED4822 /* NJSEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSEndpoint.m; sourceTree = "<group>"; };
+		9A24EA601D7E48D800ED4822 /* NJSAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSAPIManager.h; sourceTree = "<group>"; };
+		9A24EA611D7E48D800ED4822 /* NJSAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSAPIManager.m; sourceTree = "<group>"; };
+		9A24EA631D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSJSONResponseSerializerWithData.h; sourceTree = "<group>"; };
+		9A24EA641D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSJSONResponseSerializerWithData.m; sourceTree = "<group>"; };
+		9A24EA711D7E48D800ED4822 /* NJSLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSLogFormatter.h; sourceTree = "<group>"; };
+		9A24EA721D7E48D800ED4822 /* NJSLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSLogFormatter.m; sourceTree = "<group>"; };
+		9A24EA731D7E48D800ED4822 /* NJSCocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSCocoaLumberjack.h; sourceTree = "<group>"; };
+		9A24EA741D7E48D800ED4822 /* NJSCocoaLumberjack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSCocoaLumberjack.m; sourceTree = "<group>"; };
+		9A24EA751D7E48D800ED4822 /* NJSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSLogger.h; sourceTree = "<group>"; };
+		9A24EA771D7E48D800ED4822 /* NJSVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSVersionManager.h; sourceTree = "<group>"; };
+		9A24EA781D7E48D800ED4822 /* NJSVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSVersionManager.m; sourceTree = "<group>"; };
+		9A24EA901D7E4C0D00ED4822 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9A24EA921D7E4C1B00ED4822 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9A24EA941D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NJSEndpoint+MNCLMovies.h"; sourceTree = "<group>"; };
+		9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NJSEndpoint+MNCLMovies.m"; sourceTree = "<group>"; };
 		F4D1F4311D7DCCD1007A4C29 /* Magnet Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magnet Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D1F4351D7DCCD1007A4C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNCLAppDelegate.h; sourceTree = "<group>"; };
 		F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNCLAppDelegate.m; sourceTree = "<group>"; };
-		F4D1F43E1D7DCCD1007A4C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F4D1F4431D7DCCD1007A4C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D1F4451D7DCCD1007A4C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4D1F44B1D7DE2AC007A4C29 /* MNCLMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNCLMovie.h; path = Models/MNCLMovie.h; sourceTree = "<group>"; };
-		F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNCLMovie.m; path = Models/MNCLMovie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,169 @@
 				854B40D5B7845B80CFB738E6 /* Pods-Magnet Movies.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A24EA581D7E482100ED4822 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */,
+				F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		9A24EA591D7E48D800ED4822 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA5B1D7E48D800ED4822 /* Core */,
+				9A24EA651D7E48D800ED4822 /* Endpoints */,
+				9A24EA661D7E48D800ED4822 /* Mantle */,
+				9A24EA671D7E48D800ED4822 /* Requesters */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9A24EA5B1D7E48D800ED4822 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA5C1D7E48D800ED4822 /* Endpoint */,
+				9A24EA5F1D7E48D800ED4822 /* Manager */,
+				9A24EA621D7E48D800ED4822 /* Response Serializer */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9A24EA5C1D7E48D800ED4822 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA5D1D7E48D800ED4822 /* NJSEndpoint.h */,
+				9A24EA5E1D7E48D800ED4822 /* NJSEndpoint.m */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		9A24EA5F1D7E48D800ED4822 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA601D7E48D800ED4822 /* NJSAPIManager.h */,
+				9A24EA611D7E48D800ED4822 /* NJSAPIManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9A24EA621D7E48D800ED4822 /* Response Serializer */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA631D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.h */,
+				9A24EA641D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m */,
+			);
+			path = "Response Serializer";
+			sourceTree = "<group>";
+		};
+		9A24EA651D7E48D800ED4822 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA941D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.h */,
+				9A24EA951D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		9A24EA661D7E48D800ED4822 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		9A24EA671D7E48D800ED4822 /* Requesters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Requesters;
+			sourceTree = "<group>";
+		};
+		9A24EA681D7E48D800ED4822 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9A24EA6A1D7E48D800ED4822 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A24EA6C1D7E48D800ED4822 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA6E1D7E48D800ED4822 /* Logger */,
+				9A24EA761D7E48D800ED4822 /* VersionManager */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A24EA6E1D7E48D800ED4822 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA6F1D7E48D800ED4822 /* CocoaLumberjack */,
+				9A24EA751D7E48D800ED4822 /* NJSLogger.h */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		9A24EA6F1D7E48D800ED4822 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA701D7E48D800ED4822 /* Formatter */,
+				9A24EA731D7E48D800ED4822 /* NJSCocoaLumberjack.h */,
+				9A24EA741D7E48D800ED4822 /* NJSCocoaLumberjack.m */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		9A24EA701D7E48D800ED4822 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA711D7E48D800ED4822 /* NJSLogFormatter.h */,
+				9A24EA721D7E48D800ED4822 /* NJSLogFormatter.m */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		9A24EA761D7E48D800ED4822 /* VersionManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA771D7E48D800ED4822 /* NJSVersionManager.h */,
+				9A24EA781D7E48D800ED4822 /* NJSVersionManager.m */,
+			);
+			path = VersionManager;
+			sourceTree = "<group>";
+		};
+		9A24EA791D7E48D800ED4822 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A24EA7D1D7E48D800ED4822 /* Storboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A24EA901D7E4C0D00ED4822 /* Launch Screen.storyboard */,
+				9A24EA921D7E4C1B00ED4822 /* Main.storyboard */,
+			);
+			path = Storboards;
+			sourceTree = "<group>";
+		};
+		9A24EA7F1D7E48D800ED4822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BFB3F51911B16F8E8D1E57B2 /* Frameworks */ = {
@@ -82,14 +264,15 @@
 		F4D1F4331D7DCCD1007A4C29 /* Magnet Movies */ = {
 			isa = PBXGroup;
 			children = (
-				F4D1F4371D7DCCD1007A4C29 /* MNCLAppDelegate.h */,
-				F4D1F4381D7DCCD1007A4C29 /* MNCLAppDelegate.m */,
-				F4D1F44B1D7DE2AC007A4C29 /* MNCLMovie.h */,
-				F4D1F44C1D7DE2AC007A4C29 /* MNCLMovie.m */,
-				F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */,
+				9A24EA591D7E48D800ED4822 /* API */,
+				9A24EA681D7E48D800ED4822 /* Categories */,
+				9A24EA6A1D7E48D800ED4822 /* Controllers */,
+				9A24EA6C1D7E48D800ED4822 /* Helpers */,
+				9A24EA791D7E48D800ED4822 /* Models */,
+				9A24EA7D1D7E48D800ED4822 /* Storboards */,
+				9A24EA7F1D7E48D800ED4822 /* Views */,
 				F4D1F4401D7DCCD1007A4C29 /* Assets.xcassets */,
-				F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */,
-				F4D1F4451D7DCCD1007A4C29 /* Info.plist */,
+				9A24EA581D7E482100ED4822 /* App Delegate */,
 				F4D1F4341D7DCCD1007A4C29 /* Supporting Files */,
 			);
 			path = "Magnet Movies";
@@ -98,6 +281,7 @@
 		F4D1F4341D7DCCD1007A4C29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4D1F4451D7DCCD1007A4C29 /* Info.plist */,
 				F4D1F4351D7DCCD1007A4C29 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -116,6 +300,8 @@
 				F4D1F42F1D7DCCD1007A4C29 /* Resources */,
 				43C73063B862547C573C002F /* [CP] Embed Pods Frameworks */,
 				43BEB95435BFA4833CEF1C5A /* [CP] Copy Pods Resources */,
+				F02DDAF0B33DC7A8BD2DF433 /* Embed Pods Frameworks */,
+				9A24EA8F1D7E4A0D00ED4822 /* Increment Build Number */,
 			);
 			buildRules = (
 			);
@@ -164,9 +350,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D1F4441D7DCCD1007A4C29 /* LaunchScreen.storyboard in Resources */,
+				9A24EA931D7E4C1B00ED4822 /* Main.storyboard in Resources */,
+				9A24EA911D7E4C0D00ED4822 /* Launch Screen.storyboard in Resources */,
 				F4D1F4411D7DCCD1007A4C29 /* Assets.xcassets in Resources */,
-				F4D1F43F1D7DCCD1007A4C29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +389,35 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9A24EA8F1D7E4A0D00ED4822 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# Increment Build Number In order to avoid conflicts when uploading the same version but different build in TestFlight\n#http://stackoverflow.com/questions/21114376/how-to-auto-increment-the-build-number-in-xcode-5\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+		F02DDAF0B33DC7A8BD2DF433 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magnet Movies/Pods-Magnet Movies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FE1BD09A894920C72A6444A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,32 +440,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D1F44D1D7DE2AC007A4C29 /* MNCLMovie.m in Sources */,
 				F4D1F4391D7DCCD1007A4C29 /* MNCLAppDelegate.m in Sources */,
+				9A24EA821D7E48D800ED4822 /* NJSEndpoint.m in Sources */,
+				9A24EA8A1D7E48D800ED4822 /* NJSVersionManager.m in Sources */,
+				9A24EA841D7E48D800ED4822 /* NJSJSONResponseSerializerWithData.m in Sources */,
+				9A24EA881D7E48D800ED4822 /* NJSLogFormatter.m in Sources */,
+				9A24EA831D7E48D800ED4822 /* NJSAPIManager.m in Sources */,
+				9A24EA961D7E52E600ED4822 /* NJSEndpoint+MNCLMovies.m in Sources */,
 				F4D1F4361D7DCCD1007A4C29 /* main.m in Sources */,
+				9A24EA891D7E48D800ED4822 /* NJSCocoaLumberjack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F4D1F43D1D7DCCD1007A4C29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4D1F43E1D7DCCD1007A4C29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F4D1F4421D7DCCD1007A4C29 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4D1F4431D7DCCD1007A4C29 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4D1F4461D7DCCD1007A4C29 /* Debug */ = {
